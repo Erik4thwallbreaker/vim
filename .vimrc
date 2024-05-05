@@ -72,7 +72,7 @@ set hidden
 	:command! SAVEX :mksession! | w | qa
 
 	" Common File Access
-	:command! VIMRC :e ~/.vimrc
+	:command! VIMRC :e ~/.config/vim/.vimrc
 
 " VISUAL MODIFICATIONS
 "######################
