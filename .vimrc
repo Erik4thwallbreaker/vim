@@ -10,6 +10,7 @@ set hidden
 		Plug 'https://github.com/Valloric/YouCompleteMe'
 		Plug 'jnurmine/Zenburn'
 		Plug 'preservim/nerdcommenter'
+		Plug 'airblade/vim-gitgutter'                                           " integrate git into nvim
 	call plug#end()
 
 
