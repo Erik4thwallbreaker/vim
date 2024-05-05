@@ -30,6 +30,9 @@ set hidden
 
 " HOTKEYS
 "#############
+	" Try to add function to make and execute testfiles
+	map <leader>em :! make test<CR>
+
 	" JK to escape
 	inoremap <special> jk <ESC>
 
