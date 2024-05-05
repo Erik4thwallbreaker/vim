@@ -2,6 +2,9 @@ set wildmode=full:lastused
 set wildmenu                                                                " better : mode auto complete
 set wildoptions=pum
 
+set signcolumn=yes " used by gitgutter
+set updatetime=100
+
 set hidden
 " PLUGINS
 "#############
