@@ -5,6 +5,10 @@ set wildoptions=pum
 set signcolumn=yes " used by gitgutter
 set updatetime=100
 
+" Space instead of alt shift
+nnoremap <SPACE> <Nop>
+let mapleader=" "
+
 set hidden
 " PLUGINS
 "#############
@@ -42,10 +46,6 @@ set hidden
 	" Hotkeys for commenting: Mark the blocks you want and press # or -#
 	noremap <silent> # :s/^/#/<cr>:noh<cr>
 	vnoremap <silent> -# :s/^#//<cr>:noh<cr>
-
-	" Space instead of alt shift
-	nnoremap <SPACE> <Nop>
-	let mapleader=" "
 
 	" NERDCommenter hotkeys
 	map <leader>kc :call nerdcommenter#Comment(0,"comment")<cr>
