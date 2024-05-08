@@ -53,7 +53,7 @@ set hidden
 	autocmd FileType python map <buffer> <leader>ef :w<CR>:! 'python3' % <CR>
 	autocmd FileType python map <buffer> <leader>eg  :w<CR>:! 'python' % <CR>
 	autocmd FileType make map <buffer> <leader>ef :w<CR>:! 'make' <CR>
-	map <leader>em :! make test<CR>
+	map <leader>em :w<CR>:! make test<CR>
 
 	"Hotkey to clear terminal
 	map <leader>ct <esc>:! 'clear' <CR>
